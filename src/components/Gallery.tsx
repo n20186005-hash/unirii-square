@@ -4,18 +4,18 @@ import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
 
 const photos = [
-  { src: '/gallery/images (1).jpg', alt: 'Rubjerg Knude Panoramic View' },
-  { src: '/gallery/images (2).jpg', alt: 'Sand Dunes and Lighthouse' },
-  { src: '/gallery/images (3).jpg', alt: 'North Sea Coastline' },
-  { src: '/gallery/images (4).jpg', alt: 'Flowing Sand Dunes' },
-  { src: '/gallery/images (5).jpg', alt: 'Sea Cliffs' },
-  { src: '/gallery/images (6).jpg', alt: 'Coastal Sunset' },
-  { src: '/gallery/images (7).jpg', alt: 'Wilderness Scenery' },
-  { src: '/gallery/images (8).jpg', alt: 'Lighthouse Close-up' },
-  { src: '/gallery/images (9).jpg', alt: 'Rubjerg Knude' },
-  { src: '/gallery/images (10).jpg', alt: 'Sand Dune Trail' },
-  { src: '/gallery/images (11).jpg', alt: 'North Sea Scenery' },
-  { src: '/gallery/images (12).jpg', alt: 'Lighthouse Silhouette' },
+  { src: '/gallery/images (1).jpg', alt: 'Unirii Square Panoramic View' },
+  { src: '/gallery/images (2).jpg', alt: "St. Michael's Church" },
+  { src: '/gallery/images (3).jpg', alt: 'Matthias Corvinus Statue' },
+  { src: '/gallery/images (4).jpg', alt: 'Square at Night' },
+  { src: '/gallery/images (5).jpg', alt: 'Medieval Architecture' },
+  { src: '/gallery/images (6).jpg', alt: 'Baroque Facade' },
+  { src: '/gallery/images (7).jpg', alt: 'Gothic Spire' },
+  { src: '/gallery/images (8).jpg', alt: 'Eastern European Charm' },
+  { src: '/gallery/images (9).jpg', alt: 'Unirii Square' },
+  { src: '/gallery/images (10).jpg', alt: 'Historic Buildings' },
+  { src: '/gallery/images (11).jpg', alt: 'Cobblestone Streets' },
+  { src: '/gallery/images (12).jpg', alt: 'City Center' },
 ];
 
 export default function Gallery() {
@@ -95,7 +95,7 @@ export default function Gallery() {
 
             <div className="flex justify-center mt-6 gap-4 items-center">
               <a
-                href="https://maps.app.goo.gl/4VwNPngCGCqifTnH6"
+                href="https://maps.app.goo.gl/CRr6CfKmhQBaWbsh8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"

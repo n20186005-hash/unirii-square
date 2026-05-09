@@ -25,21 +25,21 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.8!2d9.77!3d57.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46493a!2sRubjerg%20Knude!5e0!3m2!1sen!2sdk!4v1700000000000!5m2!1sen!2sdk"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.887201705646!2d23.58739667683787!3d46.76943006323605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e7561db4bb1%3A0xc0fb13a6dfa53580!2sPia%C8%9Ba%20Unirii%2C%20Cluj-Napoca%2C%20Romania!5e0!3m2!1sen!2sro!4v1700000000000!5m2!1sen!2sro"
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Rubjerg Knude"
+            title="Google Maps - Unirii Square"
           />
         </div>
 
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://maps.app.goo.gl/4VwNPngCGCqifTnH6"
+            href="https://maps.app.goo.gl/CRr6CfKmhQBaWbsh8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"

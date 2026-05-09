@@ -41,29 +41,15 @@ export default function TicketsSection() {
             </div>
           </div>
 
-          {/* Lighthouse */}
+          {/* Paid Attractions */}
           <div
             className="rounded-2xl p-6 sm:p-8"
             style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
           >
-            <div className="flex items-center gap-3 mb-4">
-              <div
-                className="w-12 h-12 rounded-full flex items-center justify-center"
-                style={{ background: 'var(--accent)' }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                  <path d="M12 2L8 22h8L12 2z"/>
-                  <circle cx="12" cy="8" r="3"/>
-                </svg>
-              </div>
-              <h3 className="font-display text-xl font-semibold" style={{ color: 'var(--text-primary)' }}>
-                {t('lighthouse')}
-              </h3>
-            </div>
-            <div className="space-y-3">
-              <PriceRow label={t('adults')} value={t('adultsPrice')} />
-              <PriceRow label={t('students')} value={t('studentsPrice')} />
-              <PriceRow label={t('children')} value={t('childrenPrice')} isFree />
+            <div className="space-y-3 mt-4">
+              <PriceRow label={t('lake')} value={t('lakePrice')} />
+              <PriceRow label={t('plaza')} value={t('plazaPrice')} />
+              <PriceRow label={t('activities')} value={t('activitiesPrice')} />
             </div>
           </div>
         </div>
