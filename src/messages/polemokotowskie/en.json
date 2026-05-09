@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "title": "Pole Mokotowskie | Warsaw's Largest Urban Green Space & Local Leisure Paradise - Best European Spots",
+    "description": "Complete guide to Pole Mokotowskie in Warsaw, Poland. Learn about opening hours, transportation, ticket info, tour tips and stunning photos. Warsaw's largest urban park and local leisure destination."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Pole Mokotowskie",
+    "subtitle": "Warsaw's Largest Urban Green Space & Local Leisure Paradise",
+    "rating": "4.7(26,517)",
+    "reviewCount": "26,517 reviews",
+    "hours": "Open 24/7",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Discover Pole Mokotowskie",
+    "description": "Honestly, the first time you step into Pole Mokotowskie, you'll be instantly healed by this endless expanse of open green space. Unlike meticulously manicured gardens, this is Warsaw's very own relaxed wilderness — vast stretches of level lawn extending toward the horizon, with wind gently rippling through the grass, clean and expansive.\n\nOn a sunny afternoon, the air is fresh and clear, with Warsaw's city buildings faintly visible in the distance, perfectly complementing the meadow's tranquility. The lakeside trails are lined with lush vegetation, the lake surface mirror-still, occasionally disturbed by water birds gliding by, adding a touch of灵动.\n\nLocals scatter about in small groups — some spread out picnic blankets for chat and relaxation, others jog or cycle along the paths, children run freely across the open lawn flying kites. No crowded tourists, no commercialized noise, just the peaceful ease of everyday life.\n\nThe most touching quality here is the perfect balance between city and nature. Situated in the heart of a bustling urban area, yet possessing a wilderness far from the hustle and bustle — look up for an unobstructed sky, look down for soft grass. You can sit anywhere, space out, and let time flow slowly.\n\nAt sunset, the entire meadow is bathed in a warm glow, tree shadows stretch long, and the evening breeze brings comfortable coolness. Passersby walk at a leisurely pace, the entire space quiet yet gentle. At this moment, you understand why locals are so fond of this place — without traveling far, you can embrace nature and shed your fatigue. This is the most tender romance a city leaves for ordinary people.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "Recommended to visit during early morning or evening hours when light is soft and temperatures are pleasant, avoiding midday sun and peak crowds",
+        "All public lawns, trails, and lake scenery are completely free and open for free exploration",
+        "The lawn area is vast — wear comfortable shoes for extended walking",
+        "Protect the environment, don't litter, and avoid trampling vegetation"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Warsaw's largest and most representative urban public green space",
+        "An important landmark in Warsaw's modern urban planning",
+        "Witness to Warsaw's post-war reconstruction and urban ecological upgrade",
+        "An important carrier of local cultural life and urban memory"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "The Charm of Pole Mokotowskie",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Centuries of Historical Changes",
+        "content": "The land of Pole Mokotowskie has deep roots, originally serving as suburban open wasteland and buffer green space. As Warsaw's urban area expanded, it was incorporated into the city's overall planning. After World War II, Warsaw underwent large-scale reconstruction, and the city urgently needed large-scale public green spaces to ease the urban rhythm — this meadow was officially transformed into a public city park.\n\nThe initial construction focused on basic greening and simple trails, emphasizing an open, native landscape style that preserved the site's original wilderness character. Over subsequent gentle upgrades, artificial lakes, leisure facilities, sports fields, and commemorative landscapes were added, gradually improving functionality and becoming a comprehensive urban recreational green space.\n\nFor centuries, this land has evolved from suburban wasteland to an ecological barrier for post-war city restoration, and now to a shared urban living room for all. It has witnessed Warsaw's destruction and rebirth, carrying the daily memories of generations of locals, standing quietly in the city center, embracing the city's vitality and stories with its vast green expanse."
+      },
+      {
+        "id": "architecture",
+        "title": "Architectural Features",
+        "content": "The park features vast native lawns as its main body, complemented by artificial lakes, tree-lined trails, landscape vegetation, and small recreational plazas — the space is open and airy with transparent views. Within the park are simple commemorative installations, leisure sculptures, and lakeside boardwalks, where natural landscapes and urban public facilities blend harmoniously.\n\nThe modern urban ecological planning style abandons complex landscaping in favor of simplicity and nature. Vast open meadows paired with linear tree-lined avenues create a stretched, transparent layout that balances practical recreational function with natural wild charm."
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Significance",
+        "content": "A core venue for Warsaw citizens' daily relaxation, exercise, picnics, and festival activities, carrying the local relaxed urban lifestyle culture. Regular events include outdoor markets, outdoor performances, public welfare activities, and sports competitions — making it an important embodiment of Warsaw's urban vitality and inclusive atmosphere.\n\nAs the city's central super-sized green space, it's not only the preferred destination for locals' daily leisure but also an important part of Warsaw's urban identity. Every weekend and holiday, it becomes a popular gathering spot for local families and friends."
+      },
+      {
+        "id": "experience",
+        "title": "Core Experience",
+        "content": "Enter the park in the early morning, stroll slowly along the tree-lined avenues, breathe in fresh air, and feel the rare tranquility of the city. Spread out a picnic blanket on the lawn in the afternoon, chat idly with friends, watch children chase each other on the grass. In the evening, walk along the lakeside boardwalk, admire the city skyline reflected on the lake surface, and watch sunset paint the entire meadow in warm golden hues.\n\nNo need to plan anything in particular — the best experience here is to slow down, wander freely, and let the fatigue of urban life slowly dissipate in this green wilderness."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Pole Mokotowskie",
+    "type": "Attraction Type",
+    "typeValue": "Urban Park, Large Green Space, Leisure Meadow",
+    "country": "Country",
+    "countryValue": "Poland",
+    "city": "City",
+    "cityValue": "Warsaw",
+    "googleRating": "Google Rating",
+    "phone": "Phone",
+    "address": "Address",
+    "addressValue": "Al. Niepodległości, 00-650 Warszawa, Poland"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "outdoor": "Entire Park Area",
+    "outdoorTime": "Open 24/7, year-round, no closure restrictions",
+    "restrooms": "Public Rest Areas",
+    "restroomsTime": "Accessible all day",
+    "trails": "Trails & Lawns",
+    "trailsTime": "Open 24 hours",
+    "tip": "Recommended to visit during early morning or evening hours when light is soft and temperatures are pleasant, avoiding midday sun and peak crowds"
+  },
+  "tickets": {
+    "title": "Ticket Prices",
+    "outdoor": "Outdoor Lawns & Trails",
+    "outdoorPrice": "Completely free admission, no entry fee",
+    "lake": "Lake Scenic Area",
+    "lakePrice": "Free admission, open exploration",
+    "plaza": "Recreation Plaza",
+    "plazaPrice": "Free admission",
+    "activities": "Temporary Recreational Projects",
+    "activitiesPrice": "Some seasonal activities require separate payment",
+    "card": "Warsaw Public Transport Pass",
+    "cardPrice": "Recommended to purchase Warsaw public transport day pass for unlimited metro, tram and bus rides"
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "airport": "From Warsaw Chopin Airport",
+    "airportDesc": "Take city rapid rail transit and bus lines directly to the city center, then transfer to short-distance trams or buses to reach the area around the park — approximately 30 minutes total. Airport ride-sharing and taxi services are convenient, ideal for travelers with luggage or groups for quick direct access.",
+    "train": "From Warsaw Central Station",
+    "trainDesc": "Take city trams, metro, or short-distance buses — arriving at the park entrance within 15 minutes. Public transport runs frequently with convenient transfers.",
+    "city": "From Major Attractions",
+    "cityDesc": "From key attractions like Warsaw Old Town and the Palace of Culture and Science, take cross-district buses easily for round trips. Also ideal for combining with long walks and city cycling routes.",
+    "public": "Public Transport Nearby",
+    "publicDesc": "The area around the park is well-served by bus and tram stops, making city commuting very convenient. Recommended to purchase Warsaw public transport day passes for unlimited rides.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Parking spaces near the park are limited — public transport is recommended. Warsaw city center is generally safe and secure for daily travel."
+  },
+  "route": {
+    "title": "Recommended Route",
+    "overview": "Recommended to enter the park during early morning or evening. Start from the main entrance, take a leisurely stroll along the grand tree-lined avenue, pass through the lakeside scenic zone to enjoy lake and greenery views. Cross the central large lawn to experience the wilderness panorama, visit the simple commemorative landscape and recreation plaza, and finally relax on the edge of the lawn. The pace is relaxed throughout. Pure walking takes about 1.5 hours; extended wandering, photography, and发呆 can extend to half a day.",
+    "steps": [
+      "Get off at the nearby public transport stop and walk to the park's main entrance, entering the wide tree-lined main road",
+      "Stroll slowly along the tree-lined trail, enjoying the大片 trees and lush greenery, breathing fresh air",
+      "Walk around the artificial lake's boardwalk, getting close views of the lake surface and water birds, photographing waterside scenery",
+      "Cross the central open lawn, feeling the endless wilderness view and pure natural atmosphere",
+      "Visit the park's small commemorative area and art installations, learning about the site's cultural background and urban heritage",
+      "Explore niche forest paths, avoiding crowds, experiencing quiet and private natural corners",
+      "Rest in the gentle lawn area, feeling the everyday atmosphere of locals picnicking and relaxing",
+      "Return along the outer trail, enjoying the unique scenery where city skyline and green space blend"
+    ],
+    "supplements": [
+      "The lawn area is vast — wear comfortable shoes for extended walking and movement",
+      "Lawns can be wet and muddy after rain — check weather conditions before visiting",
+      "Protect the environment, don't litter, avoid trampling vegetation or damaging greenery",
+      "Nighttime has no forced clearance — lighting is simple and soft, suitable for quiet walks, but recommend going in pairs"
+    ]
+  },
+  "photoSpots": {
+    "title": "Photo Spots",
+    "spots": [
+      {
+        "name": "Center of Central Lawn",
+        "desc": "Endless open views with the distant city as backdrop — perfect for healing wilderness panoramas"
+      },
+      {
+        "name": "Along Lakeside Boardwalk",
+        "desc": "Calm lake surface as natural foreground with green surroundings — fresh and clean compositions"
+      },
+      {
+        "name": "Middle Section of Tree-Lined Avenue",
+        "desc": "Trees on both sides create natural depth — soft lighting, ideal for atmospheric street photography"
+      },
+      {
+        "name": "Commemorative Landscape Area",
+        "desc": "Simple human installations paired with lawn backgrounds — minimalist and sophisticated style"
+      },
+      {
+        "name": "Tree-Shaded Corner at Lawn Edge",
+        "desc": "Dappled tree shadows with gentle light — suitable for portraits and quiet atmospheric shots"
+      }
+    ],
+    "tips": "Photography Tips",
+    "tipsContent": "The open space has no tall obstructions — daylight can be strong on sunny days. Apply sunscreen and adjust shooting angles to avoid harsh light. Drone flying is prohibited throughout the park. Obtain permission before photographing local residents. Holidays bring more local visitors — for empty shots, visit on weekday mornings."
+  },
+  "hotels": {
+    "title": "Accommodation",
+    "hotels": [
+      {
+        "name": "Quality Value: Within Walking Distance",
+        "desc": "Luxury renovated accommodations in historic buildings, quiet environment, convenient access, walking distance to the park with complete facilities",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Design Choice: Along Main City Arteries",
+        "desc": "Modern minimalist style accommodations, excellent transportation connections, short distance to multiple urban attractions",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Unique Experience: Old Town Surroundings",
+        "desc": "Retro-style residences with local atmosphere, immersive experience of Warsaw's everyday life and market vibes",
+        "price": "Price varies by season"
+      },
+      {
+        "name": "Budget Option: Near Transport Hubs",
+        "desc": "High value-for-money accommodations, convenient public transport, short commute to the meadow park",
+        "price": "Price varies by season"
+      }
+    ],
+    "supplements": "Accommodation Tips",
+    "supplementsContent": "Warsaw city center is generally safe and secure. Park neighborhood is safe for daily travel. Prices rise slightly during peak travel season and weekends — book in advance during popular periods. Prioritize accommodations in the middle area between green space and city center — enjoying a quiet environment while efficiently connecting to various attractions."
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Pole Mokotowskie Warsaw Urban Green Space Scenery",
+    "captions": [
+      "Pole Mokotowskie Panorama",
+      "Central Open Lawn",
+      "Lakeside Trail",
+      "Tree-Lined Avenue",
+      "Lake Reflections",
+      "Lawn Sunset",
+      "Commemorative Art Installation",
+      "Local Leisure Atmosphere"
+    ],
+    "viewAll": "View on Google Maps"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View more reviews on Google Maps",
+    "items": [
+      {
+        "name": "Ming H.",
+        "date": "April 2026",
+        "rating": 5,
+        "text": "Warsaw's hidden gem! A huge green space right in the city center — feels like stepping into another world. Locals having picnics, jogging — very atmospheric."
+      },
+      {
+        "name": "Lina",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "Perfect for evening walks! The sunset over the lawn is golden, and the city skyline reflected on the lake is so beautiful you forget all your troubles."
+      },
+      {
+        "name": "Wei Q.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "If you're in Warsaw, you must visit here. No tickets needed, no planning required — just find a patch of grass and space out. Best travel experience ever."
+      },
+      {
+        "name": "Anna",
+        "date": "January 2026",
+        "rating": 4,
+        "text": "A very large green space, great for walking and relaxing. Should be even more beautiful in summer when you see lots of locals enjoying outdoor activities."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Al. Niepodległości, 00-650 Warszawa, Poland",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Pole Mokotowskie Independent Travel Research Association · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "council": "Polish Tourist Organization",
+      "tourism": "Warsaw Tourism",
+      "england": "Visit Warsaw"
+    },
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "Information We Collect",
+        "content": "We only collect the minimum data necessary to provide our services. This data may include: Browsing data (IP address, browser type, pages visited); Cookies and similar technologies; Any information you voluntarily provide through contact forms or email."
+      },
+      {
+        "heading": "How We Use Your Information",
+        "content": "We use the information collected for: Improving website content and user experience; Analyzing traffic and usage patterns; Responding to inquiries; Complying with our legal obligations."
+      },
+      {
+        "heading": "Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+      },
+      {
+        "heading": "Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the following rights: Access your personal data; Request correction or deletion; Object to processing; File a complaint with a supervisory authority."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "Access and Usage",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+      },
+      {
+        "heading": "Content Usage",
+        "content": "All content on this website is for reference only. We are an independent third-party travel information website and are not affiliated with any tourist attractions, government agencies, or commercial operators."
+      },
+      {
+        "heading": "Accuracy of Information",
+        "content": "We strive to provide accurate and up-to-date information, but cannot guarantee completeness or accuracy. Schedules, conditions, and services are subject to change without notice. Please verify important information through official channels before traveling."
+      },
+      {
+        "heading": "Intellectual Property",
+        "content": "The design and original content of this website are copyright protected. Images are from Unsplash and used under their license. Use of Google Maps data complies with Google's Terms of Service."
+      },
+      {
+        "heading": "Limitation of Liability",
+        "content": "This website is provided on an \"as is\" basis without any warranties. We are not responsible for any losses resulting from the use of information on this website, including but not limited to travel decisions based on the website's content."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "lastUpdated": "Last updated: May 2026",
+    "description": "We use Cookies to improve your browsing experience. You can manage your preferences below.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "badge": "Always active",
+      "status": "active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "active",
+          "description": "It collects anonymous information about how visitors use our website."
+        }
+      ]
+    },
+    "preferences": {
+      "title": "Preference Cookies",
+      "description": "They remember your settings, such as language and theme preferences.",
+      "items": [
+        {
+          "name": "User Preferences",
+          "status": "active",
+          "description": "Saves your language preference and website settings."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "They are used to display relevant advertisements and measure the effectiveness of advertising campaigns.",
+      "items": [
+        {
+          "name": "Personalized Ads",
+          "status": "inactive",
+          "description": "It can display relevant ads based on your interests."
+        }
+      ]
+    },
+    "consentManagement": "Consent Management",
+    "consentDescription": "You can change your cookie settings at any time. Please note that disabling certain cookies may affect the functionality of the website.",
+    "save": "Save Preferences",
+    "rejectAll": "Reject All",
+    "saved": "Preferences saved!"
+  },
+  "officialManagement": {
+    "title": "About Pole Mokotowskie",
+    "text": "Pole Mokotowskie is managed and maintained by the Warsaw City Government, and is Warsaw's largest and most representative urban public green space, as well as an important landmark in Warsaw's modern urban planning.\n\nAs Warsaw's central super-sized green space, Pole Mokotowskie has witnessed Warsaw's destruction and rebirth, carrying the daily memories of generations of locals. Today, the park is open to the public free of charge, offering an excellent destination for exploring Warsaw's urban life and experiencing the city's relaxed atmosphere, as well as an important window for visitors worldwide to experience the charm of Poland's capital."
+  },
+  "recommendations": {
+    "title": "Discover More",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      {"name": "Palace of Culture and Science", "url": "https://www.warsawtour.pl"},
+      {"name": "Warsaw Old Town", "url": "https://www.warsawtour.pl"},
+      {"name": "Lazienki Park", "url": "https://www.warsawtour.pl"},
+      {"name": "Royal Castle", "url": "https://www.warsawtour.pl"}
+    ],
+    "tours": [
+      {"name": "Warsaw City Walking Tour", "url": "https://www.warsawtour.pl"},
+      {"name": "Green Cycling Tour", "url": "https://www.warsawtour.pl"},
+      {"name": "Warsaw Highlights Day Tour", "url": "https://www.getyourguide.com"},
+      {"name": "Local Food Exploration", "url": "https://www.warsawtour.pl"}
+    ]
+  }
+}
