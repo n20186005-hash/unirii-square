@@ -261,6 +261,18 @@
       "england": {
         "title": "National Institute of Heritage (INP)",
         "url": "https://patrimoniu.ro/"
+      },
+      "romania": {
+        "title": "Romania",
+        "url": "https://www.gov.ro/en"
+      },
+      "romaniaTourism": {
+        "title": "Romania Tourism Guide",
+        "url": "https://romaniatourism.com/"
+      },
+      "cluj": {
+        "title": "Cluj-Napoca",
+        "url": "https://primariaclujnapoca.ro/"
       }
     },
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."

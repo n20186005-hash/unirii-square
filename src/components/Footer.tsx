@@ -30,6 +30,15 @@ export default function Footer() {
               <a href={t('officialLinks.england.url')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
                 {t('officialLinks.england.title')}
               </a>
+              <a href={t('officialLinks.romania.url')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.romania.title')}
+              </a>
+              <a href={t('officialLinks.romaniaTourism.url')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.romaniaTourism.title')}
+              </a>
+              <a href={t('officialLinks.cluj.url')} target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {t('officialLinks.cluj.title')}
+              </a>
             </div>
           </div>
           <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
