@@ -250,9 +250,18 @@
     "cookies": "Cookie 设置",
     "officialResourcesTitle": "相关资源与资讯",
     "officialLinks": {
-      "council": "罗马尼亚旅游局",
-      "tourism": "克卢日-纳波卡旅游",
-      "england": "Visit Cluj"
+      "council": {
+        "title": "克卢日-纳波卡旅游指南",
+        "url": "https://visitcluj.ro/"
+      },
+      "tourism": {
+        "title": "罗马尼亚文化",
+        "url": "http://www.cimec.ro/"
+      },
+      "england": {
+        "title": "罗马尼亚国家文化遗产研究院 (INP)",
+        "url": "https://patrimoniu.ro/"
+      }
     },
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
   },

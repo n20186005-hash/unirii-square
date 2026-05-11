@@ -250,9 +250,18 @@
     "cookies": "Cookie Settings",
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
-      "council": "Romanian Tourism Board",
-      "tourism": "Cluj-Napoca Tourism",
-      "england": "Visit Cluj"
+      "council": {
+        "title": "Visit Cluj-Napoca",
+        "url": "https://visitcluj.ro/"
+      },
+      "tourism": {
+        "title": "Romanian Culture",
+        "url": "http://www.cimec.ro/"
+      },
+      "england": {
+        "title": "National Institute of Heritage (INP)",
+        "url": "https://patrimoniu.ro/"
+      }
     },
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
   },
