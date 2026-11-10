@@ -1,67 +1,71 @@
 {
   "meta": {
-    "title": "Unirii Square Piața Unirii | Heart of Cluj-Napoca & Medieval Landmark in Romania - Best European Spots",
-    "description": "Complete guide to Piața Unirii (Unirii Square) in Cluj-Napoca, Romania. Learn about opening hours, transportation, ticket info, history and stunning photos. Transylvania's core medieval architectural landmark."
+    "title": "Unirii Square, Cluj-Napoca | Piața Unirii Guide",
+    "description": "Explore Piața Unirii, St Michael’s Church, Bánffy Palace Art Museum and Museum Square with practical advice and dated official sources."
   },
   "header": {
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "nearby": "Nearby guides",
+    "navigation": "Main navigation"
   },
   "hero": {
     "title": "Unirii Square",
-    "subtitle": "The Heart and Medieval Landmark of Cluj-Napoca",
-    "rating": "4.7(10,486)",
-    "reviewCount": "10,486 reviews",
-    "hours": "Open 24/7",
-    "openMaps": "View Location"
+    "subtitle": "Church, palace and civic history in Cluj-Napoca",
+    "rating": "Google Maps 4.7/5",
+    "reviewCount": "10,784 reviews",
+    "hours": "Maps lists 24-hour access",
+    "openMaps": "View Location",
+    "checked": "Google Maps snapshot · 10 November 2026",
+    "imageAlt": "Equestrian monument and church"
   },
   "intro": {
-    "title": "Discover Unirii Square",
-    "description": "Step into Unirii Square and instantly feel enveloped by the rich medieval atmosphere and historical weight. This square, situated in the heart of Cluj-Napoca, is like a time station — every step reveals soaring Gothic churches, majestic royal statues, and elegant historic buildings, with every detail carved with the glory of the Middle Ages, the honor of the Hungarian Kingdom, and memories of national unity.\n\nI visited on an early summer afternoon. The sunlight gilded the Gothic spires with dazzling brilliance. St. Michael's Church's stained glass refracted colorful light under the sun, and the 80-meter-high bell tower pierced the clouds, solemn and sacred. The equestrian statue of Matthias Corvinus stands magnificent, the knight's posture heroic, the war horse prancing, telling the glory of a former kingdom. \n\nThe square is filled with leisurely crowds — locals gathering and chatting at outdoor cafes, tourists strolling to admire architectural details and street art, children playing on the lawn. Surrounding historic buildings frame the scene, Baroque reliefs and Gothic spires complement each other, every cobblestone bearing the traces of medieval times.\n\nThere's no rushing here, only the composure of historical sediment and the vibrancy of urban life. When lights come on at night, building silhouettes are gently outlined, transforming the square into a romantic Eastern European nightlife stage, where ancient medieval charm and modern烟火气 perfectly blend — healing and stunning.",
+    "title": "Explore Piața Unirii",
+    "description": "Piața Unirii is a central public square in Cluj-Napoca, Romania. St Michael’s Church and the Matthias Corvinus monument give it a recognisable focal point; Bánffy Palace adds a separate museum visit. Begin with the square, then choose a building or nearby place to explore in detail.\n\nSeparate exterior observation from interior access. The church and museum have their own arrangements: a public-space listing is not a ticket or a promise that every building is open.",
     "visitGuide": {
-      "title": "Visit Tips",
+      "title": "Before you visit",
       "items": [
-        "Recommended to visit on weekday mornings or evenings when crowds are sparse and lighting is soft, perfect for strolling and photography",
-        "The entire square is free to visit with no admission fee; entry to St. Michael's Church requires separate ticket purchase",
-        "Cobblestone surfaces are uneven — comfortable flat shoes recommended for extended walking",
-        "Protect historic buildings and public facilities; climbing statues and scratching walls are prohibited"
+        "Use the full place name with Cluj-Napoca on your map.",
+        "Choose exterior sightseeing or an interior visit; access is separate.",
+        "Check current exhibition and holiday notices.",
+        "Follow temporary barriers and event instructions."
       ]
     },
     "alsoKnownAs": {
-      "title": "Highlights",
+      "title": "Landmarks to recognise",
       "items": [
-        "Cluj-Napoca's largest and oldest square, established in the medieval period, originally named Piața Mare (Great Square)",
-        "Core representative of Transylvania's medieval Gothic architecture",
-        "Witness to historical changes through Hungarian, Ottoman, Habsburg, and Romanian periods",
-        "St. Michael's Church houses Romania's tallest church bell tower (80m), Romania's second largest Gothic church"
+        "St Michael’s Church: Gothic main building and later tower",
+        "Matthias Corvinus monument: a sculpture ensemble",
+        "Bánffy Palace: the home of the Art Museum",
+        "Museum Square: a separate square linked by the obelisk’s history"
       ]
     }
   },
   "knowledge": {
-    "title": "The Charm of Unirii Square",
+    "title": "Read the square through its landmarks",
     "sections": [
       {
-        "id": "history",
-        "title": "Centuries of Historical Changes",
-        "content": "The area of Unirii Square was castle open space before the medieval period. After the city was established in the 12th century, it gradually formed into a market, originally named Piața Mare (Great Square), Cluj-Napoca's second largest square, second only to Piața Mică (now Museum Square).\n\nDuring Hungarian and Habsburg rule from the 15th-19th centuries, the square entered its golden development period. St. Michael's Church was built from 1349-1444, and the equestrian statue of Matthias Corvinus was erected in 1902. Noble palaces such as the Old Town Hall were built around it, establishing the Gothic and Baroque architectural pattern.\n\nOn December 1, 1918, Romania achieved unification, and Transylvania officially joined Romania — the square was renamed Unirii Square (Unity Square). During the communist period it was renamed Liberty Square, and after the 1989 regime change, it was restored to Unirii Square and continues to this day.\n\nAfter the 20th century, surrounding buildings underwent renovations while preserving their medieval appearance. New cultural facilities like the National Art Museum and cafes were added. Today it has become Cluj-Napoca's most representative historical and cultural landmark and the core of Transylvanian charm."
+        "id": "church",
+        "title": "Different architectural layers",
+        "content": "Cluj Tourism identifies St Michael’s as a Gothic monument with later interior changes and a neo-Gothic tower. See the dedicated church guide for what to observe and how to plan a respectful visit."
       },
       {
-        "id": "architecture",
-        "title": "Architectural Features",
-        "content": "An open urban square covering approximately 3.5 hectares (220m × 160m). At its center stands the equestrian statue of Matthias Corvinus (built in 1902), commemorating King Matthias Corvinus of Hungary. At the square's heart is St. Michael's Church, housing Romania's tallest church bell tower (80m), Romania's second largest Gothic church. Surrounding it are Baroque, Renaissance, and Neoclassical buildings including the Old Town Hall, National Art Museum, Iosach Palace, and Reddi Palace.\n\nThe architectural style is primarily Gothic, blended with Baroque, Renaissance, and Neoclassical elements. St. Michael's Church is a typical Gothic style — soaring spires, exquisite flying buttresses, and radiant stained glass. Surrounding building facades feature ornate relief sculptures and domes with soft colors and elegant lines. The overall presentation embodies the dignified elegance of medieval Eastern European old towns, making it an open-air museum of Transylvanian architectural art."
+        "id": "palace",
+        "title": "Bánffy Palace and the Art Museum",
+        "content": "The museum’s website identifies its home as Bánffy Palace, not Jósika Palace. Palace architecture and exhibitions offer different reasons to visit; use the museum’s own information when choosing tickets."
       },
       {
-        "id": "culture",
-        "title": "Cultural Significance",
-        "content": "The cultural and social core of Cluj-Napoca, hosting important events like outdoor concerts, art exhibitions, festival celebrations, and Christmas markets. St. Michael's Church is the pinnacle of Romania's Gothic religious architecture, and the Matthias statue symbolizes Transylvania's diverse history. It's also a famous Eastern European photography hotspot, with Gothic church and medieval architectural ensemble views being extremely attractive.\n\nAs a public space in the city center, Unirii Square carries locals' daily lives — from morning joggers to afternoon coffee moments, from evening musical performances to late-night romantic walks. This is the best place to experience the atmosphere of Cluj-Napoca."
+        "id": "monument",
+        "title": "The Matthias Corvinus ensemble",
+        "content": "Cluj Tourism places the equestrian monument in Unirii Square and describes figures around its base. Observe the whole composition rather than only the horse and rider."
       },
       {
-        "id": "experience",
-        "title": "Core Experience",
-        "content": "Enter the square in the evening from the south entrance. Stroll along cobblestone paths, visiting the Matthias statue, St. Michael's Church, and surrounding historic palaces, wandering through nearby streets, finally resting at a square cafe.\n\nOn an early summer afternoon, sunlight gilds the Gothic spires with dazzling brilliance, stained glass refracts colorful light, and the 80-meter bell tower pierces the clouds. When lights come on at night, building silhouettes are gently outlined, transforming the square into an Eastern European nightlife stage where ancient medieval charm and modern vitality perfectly blend.\n\nPure visiting takes about 1.5 hours; extended exploration of architecture and culture can extend to half a day. There's no rushing here, only the composure of historical sediment and the vibrancy of urban life."
+        "id": "mirror",
+        "title": "Mirror Buildings",
+        "content": "At the Iuliu Maniu intersection, paired buildings add another architectural layer. The county tourism account connects them to late-19th-century redevelopment, a reminder that the square is not an unchanged medieval scene."
       }
     ]
   },
@@ -70,183 +74,156 @@
     "officialName": "Official Name",
     "officialNameValue": "Piața Unirii (Unirii Square)",
     "type": "Attraction Type",
-    "typeValue": "City Center Square, Medieval Historic Landmark, Gothic & Baroque Architectural Landmark, Cultural Social Center, Transylvania's Cultural Heart, Old Town Core Market Square",
+    "typeValue": "Public city square with historic landmarks",
     "country": "Country",
     "countryValue": "Romania",
     "city": "City",
     "cityValue": "Cluj-Napoca, Cluj County",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.7/5 (9,500+ reviews)",
-    "phone": "Phone",
-    "phoneValue": "Cluj Tourism Board: +40 264 452 244",
+    "googleRatingValue": "4.7/5 · 10,784 reviews · 10 November 2026",
+    "phone": "Visitor information",
+    "phoneValue": "See the official tourism and museum sources below",
     "address": "Address",
-    "addressValue": "Piața Unirii, Cluj-Napoca 400001, Romania"
+    "addressValue": "Piața Unirii, Cluj-Napoca, Romania"
   },
   "hours": {
-    "title": "Opening Hours",
-    "outdoor": "Square Public Area",
-    "outdoorTime": "Open 24/7 year-round, no access restrictions",
-    "restrooms": "Surrounding Shops & Cafes",
-    "restroomsTime": "Monday-Sunday: 08:00-22:00",
-    "trails": "Recommended Visiting Time",
-    "trailsTime": "Weekday mornings or evenings, sparse crowds, soft lighting",
-    "tip": "Recommended to visit on weekday mornings or evenings when crowds are sparse and lighting is soft, perfect for strolling and photography. Summer may feature occasional outdoor concerts, art exhibitions, and festival celebrations."
+    "title": "Access and opening times",
+    "outdoor": "Public square",
+    "outdoorTime": "Google Maps lists 24-hour access, checked 10 November 2026.",
+    "restrooms": "Shops and cafés",
+    "restroomsTime": "Each business sets its own hours; there is no common schedule.",
+    "trails": "Church and museum",
+    "trailsTime": "Check each venue separately before planning an interior visit.",
+    "tip": "The public-space listing does not guarantee unrestricted access during events or works. Follow signs. Museum hours apply to exhibitions, not the square."
   },
   "tickets": {
-    "title": "Ticket Prices",
-    "outdoor": "Entire Unirii Square",
-    "outdoorPrice": "Completely free admission, no entry fee",
-    "lake": "St. Michael's Church (Interior Visit)",
-    "lakePrice": "Separate ticket required",
-    "plaza": "National Art Museum (Interior Visit)",
-    "plazaPrice": "Separate ticket required",
-    "activities": "Temporary Exhibitions & Events",
-    "activitiesPrice": "Some events require separate ticket purchase",
-    "card": "Cluj-Napoca City Card",
-    "cardPrice": "Can offset fees at some venues, suitable for multi-attraction travelers"
+    "title": "Square access and venue tickets",
+    "outdoor": "Outdoor square",
+    "outdoorPrice": "Public space; museum admission is separate",
+    "lake": "St Michael’s Church",
+    "lakePrice": "Check current church arrangements",
+    "plaza": "Art Museum in Bánffy Palace",
+    "plazaPrice": "Exhibitions have their own tickets",
+    "activities": "Events and programmes",
+    "activitiesPrice": "Check the organiser’s terms",
+    "card": "Choose your visit before buying",
+    "cardPrice": "See the museum guide for dated official tariffs. Do not assume a city pass or outdoor visit includes museum admission."
   },
   "transport": {
-    "title": "How to Get Here",
-    "airport": "From Cluj-Napoca International Airport",
-    "airportDesc": "Take airport express bus to city center, 12-minute walk to square entrance, approximately 30 minutes total. Airport ride-sharing can directly reach the attraction, suitable for travelers with luggage or groups.",
-    "train": "From Cluj-Napoca Central Station/Bus Station",
-    "trainDesc": "10-minute walk to square's surrounding streets, frequent public transport departures, convenient connections.",
-    "city": "From Major Attractions",
-    "cityDesc": "Walking distance from various old town attractions (Museum Square, Victory Square, National Opera), medieval cobblestone roads are well-connected, suitable for walking tours connecting multiple sites.",
-    "public": "Nearby Public Transport",
-    "publicDesc": "Tram stops near the square (Lines 1/3/5), suitable for short trips. Cobblestone roads are gentle, comfortable for cycling. Purchase Cluj-Napoca public transport day pass for unlimited bus and tram rides.",
-    "tips": "Travel Tips",
-    "tipsDesc": "Cobblestone surfaces are uneven — comfortable flat shoes recommended. Apply sunscreen in strong summer sun; dress warmly in windy winter conditions."
+    "title": "Plan your arrival",
+    "airport": "Starting at the airport",
+    "airportDesc": "Set Piața Unirii, Cluj-Napoca as the destination. Check current airport and operator information before choosing a route and allow for the walk from your actual stop.",
+    "train": "Starting at the railway station",
+    "trainDesc": "Plan from your actual station exit on the current map. Choose walking or onward transport according to luggage, weather and mobility needs; no fixed journey time is promised here.",
+    "city": "Moving between squares",
+    "cityDesc": "Piața Muzeului is a separate destination. Use its Romanian name on the map and read the guide for the Carolina Obelisk’s historical connection.",
+    "public": "Choosing public transport",
+    "publicDesc": "Confirm the route, stop and ticket with the current operator. This guide does not guarantee specific tram lines, city-pass benefits or unlimited day tickets.",
+    "tips": "On arrival",
+    "tipsDesc": "Check the final approach and barriers on the day. Choose footwear for city walking and ask the destination directly about access needs."
   },
   "route": {
-    "title": "Recommended Route",
-    "overview": "Enter the square in the evening from the south entrance. Stroll along cobblestone paths, visiting the Matthias statue, St. Michael's Church, and surrounding historic palaces, wandering through nearby streets, finally resting at a square cafe. The pace is relaxed throughout. Pure visiting takes about 1.5 hours; extended exploration can extend to half a day.",
+    "title": "A flexible way to explore",
+    "overview": "This is an editorial observation sequence, not a timed or surveyed route. Start wherever you arrive and add interiors only after checking access.",
     "steps": [
-      "Arrive at nearby public transport stop, walk to Unirii Square's south entrance",
-      "Face the magnificent equestrian statue of Matthias Corvinus, admire bronze sculpture details and historical inscriptions",
-      "Stroll along cobblestone paths, admire the lawn, vintage streetlamps, and medieval architectural ensemble",
-      "Head to the square's center, closely view St. Michael's Church's Gothic spire, flying buttresses, and stained glass",
-      "Stroll the east side, visit the Old Town Hall's historic exterior and Gothic details",
-      "Head to the west side, visit the National Art Museum (former Iosach Palace) Baroque architecture and collection highlights",
-      "Stroll the north side, admire Renaissance and Neoclassical architectural details of noble palaces like Reddi Palace",
-      "Rest at outdoor square cafes, taste Romanian coffee, experience Eastern European slow living",
-      "Exit from the square's north side, connecting to nearby Museum Square, National Opera, and other attractions"
+      "Find Piața Unirii on the map and get your bearings in a public area.",
+      "Observe the complete Matthias Corvinus sculpture ensemble.",
+      "Compare the church’s main building and tower from outside.",
+      "Read entrance notices if an interior church visit interests you.",
+      "Identify Bánffy Palace and decide whether to visit an exhibition.",
+      "Check museum tickets and last entry before paying.",
+      "Look towards Iuliu Maniu for the paired Mirror Buildings.",
+      "Choose Museum Square as a separate next stop after checking the actual route."
     ],
+    "supplementsTitle": "Visitor notes",
     "supplements": [
-      "Cobblestone surfaces are uneven — comfortable flat shoes recommended",
-      "Apply sunscreen in strong summer sun; dress warmly in windy winter conditions",
-      "Protect historic buildings and public facilities; climbing statues and scratching walls are prohibited",
-      "The square maintains an elegant and peaceful atmosphere; keep voices low and respect locals' leisure environment",
-      "Summer may feature occasional outdoor concerts, art exhibitions, and festival celebrations — enjoy local cultural atmosphere as you encounter them"
+      "Follow barriers and current local notices.",
+      "Leave space for daily users of the square.",
+      "Do not climb monuments or touch fragile details.",
+      "Ask before photographing people; follow interior camera rules.",
+      "Do not apply square access to separately managed buildings."
     ]
   },
   "photoSpots": {
-    "title": "Photo Spots",
+    "title": "Look before you photograph",
     "spots": [
       {
-        "name": "Central Square Statue",
-        "desc": "Wide-angle shot of the Matthias statue and St. Michael's Church — grand and stunning"
+        "name": "Church and monument",
+        "desc": "Consider the relationship between the church silhouette and sculpture from accessible public space."
       },
       {
-        "name": "In Front of St. Michael's Church",
-        "desc": "With Gothic spire as background, lawn and vintage streetlamps as foreground — full of Eastern European medieval charm"
+        "name": "Bánffy Palace facade",
+        "desc": "Study the facade composition; this palace houses the Art Museum."
       },
       {
-        "name": "Iosach Palace Facade",
-        "desc": "Close-up of Baroque ornate reliefs and colorful exterior walls — rich architectural detail"
-      },
-      {
-        "name": "Square Circular Path",
-        "desc": "Strong sense of depth, cobblestones, vintage streetlamps, and medieval buildings create unique compositions"
-      },
-      {
-        "name": "Sunset Viewing Point",
-        "desc": "Capture the square's warm golden silhouette and Gothic spire reflections at sunset — healing and beautiful"
+        "name": "Mirror Buildings",
+        "desc": "Look for the paired facades at Iuliu Maniu, keeping pedestrian movement clear."
       }
     ],
-    "tips": "Photography Tips",
-    "tipsContent": "Natural light is abundant in the square; sunny days offer rich light and shadow layers, suitable for landscape and portrait photography. Drone flying is prohibited throughout. Respect local photography regulations. Obtain permission before photographing locals and street performers. Peak season (summer, weekends) brings more visitors; for empty shots, visit on weekday mornings."
+    "tips": "Photography considerations",
+    "tipsContent": "Respect barriers and venue rules; ask before photographing people. Check current aviation rules before considering a drone. This guide does not establish flight permission."
   },
   "hotels": {
-    "title": "Accommodation",
+    "title": "Choosing where to stay",
     "hotels": [
       {
-        "name": "Quality Value: Within Walking Distance",
-        "desc": "Medieval retro hotel, converted from century-old Gothic building, windows overlooking the square and St. Michael's Church spire, elegant and livable",
-        "price": "Price varies by season"
+        "name": "Around Piața Unirii",
+        "desc": "Compare the exact address with your planned visits. A central location does not guarantee a square-facing room or historic interior.",
+        "price": "Check actual listings"
       },
       {
-        "name": "Design Choice: Near Somes River",
-        "desc": "Modern minimalist accommodation, river views, walking distance to square and old town attractions",
-        "price": "Price varies by season"
+        "name": "Elsewhere in the historic centre",
+        "desc": "Check the final walking route, late check-in and room access rather than relying on an area label.",
+        "price": "Check actual listings"
       },
       {
-        "name": "Unique Experience: Old Town Lane B&B",
-        "desc": "Transylvanian retro guesthouse, rich Eastern European medieval atmosphere, immersive local experience",
-        "price": "Price varies by season"
+        "name": "Near the Someș River",
+        "desc": "For a riverside address, verify the route to the square and ask about the actual room view.",
+        "price": "Check actual listings"
       },
       {
-        "name": "Budget Option: Near Central Station",
-        "desc": "High value-for-money accommodation, convenient public transport, short trip to the square",
-        "price": "Price varies by season"
+        "name": "Near your arrival station",
+        "desc": "This may suit luggage or an early departure. Confirm the onward connection to the centre before booking.",
+        "price": "Check actual listings"
       }
     ],
-    "supplements": "Accommodation Tips",
-    "supplementsContent": "Cluj-Napoca has stable public security; daytime touring is safe and comfortable. Avoid dimly lit alleys late at night. Accommodation prices rise during peak season and weekends — book in advance. Prioritize accommodations between the square and old town — walking distance covers Unirii Square, Museum Square, Victory Square, National Opera, and other core attractions, saving travel time."
+    "supplements": "Before booking",
+    "supplementsContent": "Confirm the room, stairs or lift, check-in, cancellation and noise concerns with the property. These are area-selection suggestions, not hotel endorsements or safety and price guarantees."
   },
   "gallery": {
     "title": "Photo Gallery",
-    "subtitle": "Unirii Square Cluj-Napoca Medieval Architecture",
+    "subtitle": "Existing photographs show buildings, architectural details and night-time activities. Captions describe observed subjects, not a claim that every image shows the same viewpoint.",
     "captions": [
-      "Unirii Square Panorama",
-      "St. Michael's Church",
-      "Matthias Corvinus Equestrian Statue",
-      "Square at Night",
-      "Medieval Architectural Ensemble",
-      "Baroque Building Facade",
-      "Gothic Spire",
-      "Eastern European Charm"
+      "Equestrian monument and church",
+      "Church exterior",
+      "Bronze city model",
+      "Interior stained-glass windows",
+      "Gothic entrance doorway",
+      "Wolf and children sculpture on a stone plinth",
+      "Close view of stained glass",
+      "Night-time string lights converging overhead",
+      "Daytime building facades and trees by a square",
+      "Night-time string lights and a Ferris wheel",
+      "Tall stone monument with a suspended bell",
+      "Bronze figures around a stone monument base and square paving"
     ],
-    "viewAll": "View on Google Maps"
+    "viewAll": "View on Google Maps",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "close": "Close lightbox"
   },
   "reviews": {
-    "title": "Visitor Reviews",
-    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
-    "moreReviews": "View more reviews on Google Maps",
-    "items": [
-      {
-        "name": "Traveler Xiaoming",
-        "date": "April 2026",
-        "rating": 5,
-        "text": "Absolutely stunning! St. Michael's Church's Gothic style is breathtaking, the 80-meter bell tower pierces the clouds, and the Matthias statue stands majestic. When lights come on at night, the entire square feels like stepping back into the Middle Ages."
-      },
-      {
-        "name": "Photographer Alina",
-        "date": "March 2026",
-        "rating": 5,
-        "text": "A photographer's paradise! Whether it's morning light, evening golden sun, or night lights, each adds unique Eastern European medieval charm to photos."
-      },
-      {
-        "name": "Backpacker Xiaowang",
-        "date": "February 2026",
-        "rating": 5,
-        "text": "Sat at a square cafe for an entire afternoon, watching locals live their leisurely lives, experiencing true Eastern European slow living. This is the best window into Romanian history and culture."
-      },
-      {
-        "name": "History Enthusiast Laozhang",
-        "date": "January 2026",
-        "rating": 5,
-        "text": "Witnessed historical changes from the Middle Ages to modern times — every stone has its own story. Doing some homework before visiting will yield even more rewards."
-      }
-    ]
+    "title": "Visitor feedback",
+    "declaration": "Read current feedback on Google Maps. The rating above is a dated external snapshot; this site does not collect or publish its own verified visitor reviews.",
+    "moreReviews": "Read reviews on Google Maps"
   },
   "mapSection": {
     "title": "How to Get Here",
-    "subtitle": "Piața Unirii, Cluj-Napoca 400001, Romania",
+    "subtitle": "Piața Unirii, Cluj-Napoca, Romania",
     "openMaps": "View on Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Unirii Square Independent Travel Research Association · All rights reserved.",
+    "rights": "© 2026 Unirii Square Travel Guide",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
@@ -281,29 +258,29 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: May 2026",
+    "lastUpdated": "Last updated: 10 November 2026",
     "sections": [
       {
-        "heading": "Information We Collect",
-        "content": "We only collect the minimum data necessary to provide our services. This data may include: Browsing data (IP address, browser type, pages visited); Cookies and similar technologies; Any information you voluntarily provide through contact forms or email."
+        "heading": "Website requests",
+        "content": "Your browser sends connection and request information when loading this website. This guide has no account, contact form or booking service."
       },
       {
-        "heading": "How We Use Your Information",
-        "content": "We use the information collected for: Improving website content and user experience; Analyzing traffic and usage patterns; Responding to inquiries; Complying with our legal obligations."
+        "heading": "Language and theme",
+        "content": "The language system may save a locale cookie. Cookie Settings stores your choice in local storage. Optional preference storage lets this browser remember your theme; otherwise a theme change lasts until a full page reload."
       },
       {
-        "heading": "Third-Party Services",
-        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+        "heading": "External resources",
+        "content": "The homepage embeds Google Maps and the stylesheet requests Google Fonts. These services receive browser requests when their resources load. External links use their providers’ policies. The preference switch does not block maps, fonts or independent hosting services."
       },
       {
-        "heading": "Your Rights",
-        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the following rights: Access your personal data; Request correction or deletion; Object to processing; File a complaint with a supervisory authority."
+        "heading": "Optional tracking and controls",
+        "content": "This application does not configure Google Analytics or personalised advertising. Use Reject All to remove optional saved theme preferences, or clear site storage in the browser. Browser privacy controls can manage third-party requests."
       }
     ]
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: May 2026",
+    "lastUpdated": "Last updated: 10 November 2026",
     "sections": [
       {
         "heading": "Access and Usage",
@@ -319,7 +296,7 @@
       },
       {
         "heading": "Intellectual Property",
-        "content": "The design and original content of this website are copyright protected. Images are from Unsplash and used under their license. Use of Google Maps data complies with Google's Terms of Service."
+        "content": "Respect applicable rights when reusing content. External links and embedded maps do not imply affiliation with their providers."
       },
       {
         "heading": "Limitation of Liability",
@@ -329,72 +306,57 @@
   },
   "cookieSettings": {
     "title": "Cookie Settings",
-    "lastUpdated": "Last updated: May 2026",
-    "description": "We use Cookies to improve your browsing experience. You can manage your preferences below.",
+    "lastUpdated": "Last updated: 10 November 2026",
+    "description": "Manage optional theme storage on this browser. Maps and fonts are separate.",
     "essential": {
       "title": "Essential Cookies",
-      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "description": "The language system may save a locale cookie; local storage retains this settings choice.",
       "badge": "Always active",
       "status": "active"
     },
     "analytics": {
       "title": "Analytics Cookies",
-      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
-      "items": [
-        {
-          "name": "Google Analytics",
-          "status": "active",
-          "description": "It collects anonymous information about how visitors use our website."
-        }
-      ]
+      "description": "No Google Analytics is configured in this application. This page does not control independent hosting services.",
+      "items": []
     },
     "preferences": {
-      "title": "Preference Cookies",
-      "description": "They remember your settings, such as language and theme preferences.",
-      "items": [
-        {
-          "name": "User Preferences",
-          "status": "active",
-          "description": "Saves your language preference and website settings."
-        }
-      ]
+      "title": "Remember my theme",
+      "description": "Allow this browser to remember light or dark mode. Turning this off removes the saved theme.",
+      "items": []
     },
     "marketing": {
       "title": "Marketing Cookies",
-      "description": "They are used to display relevant advertisements and measure the effectiveness of advertising campaigns.",
-      "items": [
-        {
-          "name": "Personalized Ads",
-          "status": "inactive",
-          "description": "It can display relevant ads based on your interests."
-        }
-      ]
+      "description": "No personalised advertising is configured in this application.",
+      "items": []
     },
     "consentManagement": "Consent Management",
-    "consentDescription": "You can change your cookie settings at any time. Please note that disabling certain cookies may affect the functionality of the website.",
+    "consentDescription": "This control changes theme storage only; it does not block maps, fonts or independent hosting services.",
     "save": "Save Preferences",
     "rejectAll": "Reject All",
     "saved": "Preferences saved!"
   },
   "officialManagement": {
-    "title": "About Unirii Square",
-    "text": "Unirii Square is managed and maintained by Cluj-Napoca City Government, one of the most important historical and cultural landmarks in Romania's Transylvania region, and Cluj-Napoca's most representative urban public space.\n\nAs Cluj-Napoca's largest and oldest square, Unirii Square has witnessed historical changes from the Middle Ages to modern times, carrying the Romanian people's shared memory of national unity. Today, the square is open to the public free of charge, making it an excellent destination for exploring Romanian history and culture, and experiencing Transylvanian charm."
+    "title": "About this guide",
+    "text": "This guide distinguishes the public square from separately managed buildings. Public sources are listed below. Editorial review: 10 November 2026."
   },
   "recommendations": {
     "title": "Discover More",
     "attractionsTitle": "Nearby Attractions",
     "toursTitle": "Recommended Tours & Activities",
     "attractions": [
-      {"name": "St. Michael's Church", "url": "https://www.clujtourism.ro"},
-      {"name": "National Art Museum", "url": "https://www.clujtourism.ro"},
-      {"name": "Museum Square", "url": "https://www.clujtourism.ro"},
-      {"name": "National Opera", "url": "https://www.clujtourism.ro"}
+      {
+        "name": "St Michael’s Church",
+        "url": "/en/st-michaels-church"
+      },
+      {
+        "name": "Bánffy Palace Art Museum",
+        "url": "/en/banffy-palace-art-museum"
+      },
+      {
+        "name": "Museum Square and Carolina Obelisk",
+        "url": "/en/museum-square-carolina-obelisk"
+      }
     ],
-    "tours": [
-      {"name": "Cluj-Napoca City Walking Tour", "url": "https://www.clujtourism.ro"},
-      {"name": "Transylvania History & Culture Tour", "url": "https://www.clujtourism.ro"},
-      {"name": "Medieval Architecture Exploration", "url": "https://www.getyourguide.com"},
-      {"name": "Local Food Tour", "url": "https://www.clujtourism.ro"}
-    ]
+    "tours": []
   }
 }

@@ -1,15 +1,16 @@
+import { MAPS_URL } from '@/lib/site';
 import { useTranslations } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
+    <section className="relative min-h-screen pt-40 flex items-end pb-16 sm:pb-24 overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
           src="/gallery/images (1).jpg"
-          alt="Unirii Square"
+          alt={t("imageAlt")}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
@@ -25,6 +26,7 @@ export default function Hero() {
             {t('subtitle')}
           </p>
 
+          <p className="text-xs text-white/80 mb-4">{t('checked')}</p>
           {/* Meta row */}
           <div className="flex flex-wrap items-center gap-4 mb-8 animate-fade-in-up animation-delay-200">
             <div className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
@@ -42,7 +44,7 @@ export default function Hero() {
               <span className="text-white text-sm">{t('hours')}</span>
             </div>
             <a
-              href="https://maps.app.goo.gl/CRr6CfKmhQBaWbsh8"
+              href={MAPS_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2 hover:bg-white/25 transition-colors"

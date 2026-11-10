@@ -1,28 +1,38 @@
 'use client';
 
+import { useLocale } from 'next-intl';
 import { useState, useEffect } from 'react';
 
 export default function ThemeToggle() {
+  const locale = useLocale();
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    const saved = localStorage.getItem('theme');
-    if (saved === 'dark') {
-      setDark(true);
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
+    const sync = () => {
+      try {
+        const allowed = JSON.parse(localStorage.getItem('cookiePrefs') || '{}').preferences === true;
+        if (!allowed) { localStorage.removeItem('theme'); setDark(document.documentElement.getAttribute('data-theme') === 'dark'); return; }
+        const saved = localStorage.getItem('theme');
+        setDark(saved === 'dark');
+        document.documentElement.removeAttribute('data-theme');
+        if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      } catch {}
+    };
+    sync();
+    window.addEventListener('cookie-preferences-changed', sync);
+    return () => window.removeEventListener('cookie-preferences-changed', sync);
   }, []);
 
   function toggle() {
     const next = !dark;
     setDark(next);
-    if (next) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('theme', 'light');
-    }
+    if (next) document.documentElement.setAttribute('data-theme', 'dark');
+    else document.documentElement.removeAttribute('data-theme');
+    try {
+      const allowed = JSON.parse(localStorage.getItem('cookiePrefs') || '{}').preferences === true;
+      if (allowed) localStorage.setItem('theme', next ? 'dark' : 'light');
+      else localStorage.removeItem('theme');
+    } catch {}
   }
 
   return (
@@ -30,7 +40,7 @@ export default function ThemeToggle() {
       onClick={toggle}
       className="p-2 rounded-md transition-colors"
       style={{ background: 'var(--tag-bg)', color: 'var(--tag-text)' }}
-      aria-label="Toggle theme"
+      aria-label={locale === "en" ? "Toggle theme" : "切换主题"}
     >
       {dark ? (
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

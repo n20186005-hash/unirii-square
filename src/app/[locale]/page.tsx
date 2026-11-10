@@ -1,4 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
+import NearbyGuides from '@/components/NearbyGuides';
+import SourceNotes from '@/components/SourceNotes';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
@@ -29,6 +31,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <NearbyGuides />
         <BasicInfo />
         <HoursSection />
         <TicketsSection />
@@ -40,6 +43,7 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <MapEmbed />
+        <SourceNotes />
       </main>
       <Footer />
     </>

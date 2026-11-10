@@ -1,3 +1,4 @@
+import { MAPS_URL } from '@/lib/site';
 import { useTranslations } from 'next-intl';
 
 export default function MapEmbed() {
@@ -20,10 +21,6 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/* 
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.887201705646!2d23.58739667683787!3d46.76943006323605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e7561db4bb1%3A0xc0fb13a6dfa53580!2sPia%C8%9Ba%20Unirii%2C%20Cluj-Napoca%2C%20Romania!5e0!3m2!1sen!2sro!4v1700000000000!5m2!1sen!2sro"
             width="100%"
@@ -39,7 +36,7 @@ export default function MapEmbed() {
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://maps.app.goo.gl/CRr6CfKmhQBaWbsh8"
+            href={MAPS_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"

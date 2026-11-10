@@ -1,33 +1,13 @@
+import { pageMetadata, requireLocale, localePath } from '@/lib/site';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const baseUrl = 'https://greatyarmouthbeach.com';
-  const localePrefix = locale === 'it' ? '' : locale === 'en' ? '/en' : locale === 'fr' ? '/fr' : '/zh-Hant';
-  const itUrl = `${baseUrl}/privacy-policy`;
-  const enUrl = `${baseUrl}/en/privacy-policy`;
-  const frUrl = `${baseUrl}/fr/privacy-policy`;
-  const zhUrl = `${baseUrl}/zh-Hant/privacy-policy`;
-  const selfUrl = locale === 'it' ? itUrl : locale === 'en' ? enUrl : locale === 'fr' ? frUrl : zhUrl;
-
-  return {
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'it': itUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'zh-Hant': zhUrl,
-        'x-default': itUrl,
-      },
-    },
-  };
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const locale = requireLocale((await params).locale);
+  const messages = (await import('@/messages/' + locale + '.json')).default;
+  const description = locale === 'en' ? 'Privacy, storage and external resources on Unirii Square Travel Guide.' : '联合广场旅行指南的隐私与外部资源说明。';
+  return pageMetadata(locale, '/privacy-policy', messages.privacy.title + ' | Unirii Square', description);
 }
 
 function PrivacyContent() {
@@ -35,7 +15,7 @@ function PrivacyContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'it' ? '/' : `/${locale}`;
+  const homeHref = localePath(locale);
   const sections = (messages?.privacy?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (

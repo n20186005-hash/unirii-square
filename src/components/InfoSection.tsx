@@ -35,7 +35,7 @@ export default function InfoSection() {
                   </h3>
                 </div>
                 <p
-                  className="text-lg leading-relaxed ml-14"
+                  className="text-base sm:text-lg leading-relaxed sm:ml-14 whitespace-pre-line"
                   style={{ color: 'var(--text-secondary)' }}
                 >
                   {section.content}
