@@ -1,10 +1,11 @@
+import { localePath } from '@/lib/site';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-  const prefix = locale === 'en' ? '' : `/${locale}`;
+  const prefix = localePath(locale) === '/' ? '' : localePath(locale);
 
   return (
     <footer

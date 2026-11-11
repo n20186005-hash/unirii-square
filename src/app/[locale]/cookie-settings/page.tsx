@@ -1,30 +1,13 @@
+import { pageMetadata, requireLocale } from '@/lib/site';
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const baseUrl = 'https://greatyarmouthbeach.com';
-  const itUrl = `${baseUrl}/cookie-settings`;
-  const enUrl = `${baseUrl}/en/cookie-settings`;
-  const frUrl = `${baseUrl}/fr/cookie-settings`;
-  const zhUrl = `${baseUrl}/zh-Hant/cookie-settings`;
-
-  return {
-    alternates: {
-      canonical: itUrl,
-      languages: {
-        'it': itUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'zh-Hant': zhUrl,
-        'x-default': itUrl,
-      },
-    },
-  };
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const locale = requireLocale((await params).locale);
+  const messages = (await import('@/messages/' + locale + '.json')).default;
+  const description = locale === 'en' ? 'Manage optional theme storage on this browser.' : '管理此浏览器的可选主题存储。';
+  return pageMetadata(locale, '/cookie-settings', messages.cookieSettings.title + ' | Unirii Square', description);
 }
 
 export default async function CookiePage({

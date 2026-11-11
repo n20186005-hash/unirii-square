@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { useState, useRef, useEffect } from 'react';
 
@@ -12,7 +12,6 @@ const labels: Record<string, string> = {
 
 export default function LanguageToggle() {
   const locale = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -30,25 +29,14 @@ export default function LanguageToggle() {
   function switchLocale(next: Locale) {
     setOpen(false);
     
-    // 如果当前已经在目标语言，不执行任何操作
     if (next === locale) return;
 
-    const segments = pathname.split('/').filter(Boolean);
-    
-    // Remove current locale prefix if present
-    if (routing.locales.includes(segments[0] as Locale)) {
-      segments.shift();
-    }
-    
-    // Construct new path
-    const pathWithoutLocale = segments.length > 0 ? `/${segments.join('/')}` : '/';
-    
-    // Navigate
-    if (next === routing.defaultLocale) {
-      router.push(pathWithoutLocale);
-    } else {
-      router.push(`/${next}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`);
-    }
+    // An explicit locale prefix lets next-intl update its cookie before
+    // normalising the default locale URL. A document navigation also
+    // reruns the shared root layout so its HTML language stays correct.
+    const target = new URL(window.location.href);
+    target.pathname = `/${next}${pathname === '/' ? '' : pathname}`;
+    window.location.assign(target.href);
   }
 
   return (
@@ -60,7 +48,7 @@ export default function LanguageToggle() {
           background: 'var(--tag-bg)',
           color: 'var(--tag-text)',
         }}
-        aria-label="Switch language"
+        aria-label={locale === "en" ? "Switch language" : "切换语言"} aria-expanded={open}
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="12" cy="12" r="10"/>

@@ -1,32 +1,13 @@
+import { pageMetadata, requireLocale, localePath } from '@/lib/site';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const baseUrl = 'https://greatyarmouthbeach.com';
-  const itUrl = `${baseUrl}/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
-  const frUrl = `${baseUrl}/fr/terms-of-service`;
-  const zhUrl = `${baseUrl}/zh-Hant/terms-of-service`;
-  const selfUrl = locale === 'it' ? itUrl : locale === 'en' ? enUrl : locale === 'fr' ? frUrl : zhUrl;
-
-  return {
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'it': itUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'zh-Hant': zhUrl,
-        'x-default': itUrl,
-      },
-    },
-  };
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const locale = requireLocale((await params).locale);
+  const messages = (await import('@/messages/' + locale + '.json')).default;
+  const description = locale === 'en' ? 'Terms for using Unirii Square Travel Guide.' : '联合广场旅行指南的使用条款。';
+  return pageMetadata(locale, '/terms-of-service', messages.terms.title + ' | Unirii Square', description);
 }
 
 function TermsContent() {
@@ -34,7 +15,7 @@ function TermsContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'it' ? '/' : `/${locale}`;
+  const homeHref = localePath(locale);
   const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (

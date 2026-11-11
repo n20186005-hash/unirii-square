@@ -1,12 +1,13 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 
 export default function RouteSection() {
   const t = useTranslations('route');
 
-  const steps = Array.from({ length: 8 }, (_, i) => i + 1);
-  const supplements = Array.from({ length: 5 }, (_, i) => i);
+  const messages = useMessages() as unknown as { route: { steps: string[]; supplements: string[] } };
+  const steps = messages.route.steps.map((_, i) => i + 1);
+  const supplements = messages.route.supplements.map((_, i) => i);
 
   return (
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -47,7 +48,7 @@ export default function RouteSection() {
           style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--accent)' }}
         >
           <h3 className="font-display text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-            游览须知
+            {t('supplementsTitle')}
           </h3>
           <ul className="space-y-3">
             {supplements.map((i) => (
