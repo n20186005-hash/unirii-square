@@ -28,3 +28,10 @@ export function pageMetadata(locale: SiteLocale, path: string, title: string, de
     openGraph: { title, description, url: canonical, siteName: 'Unirii Square', locale: locale === 'zh' ? 'zh_CN' : 'en_US', type: 'website' },
   };
 }
+
+export function notFoundMetadata(locale: SiteLocale): Metadata {
+  return {
+    title: locale === 'en' ? 'Page not found | Unirii Square' : '找不到页面 | 联合广场',
+    robots: { index: false, follow: false },
+  };
+}

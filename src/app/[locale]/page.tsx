@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import { pageMetadata, requireLocale } from '@/lib/site';
 import NearbyGuides from '@/components/NearbyGuides';
 import SourceNotes from '@/components/SourceNotes';
 import Header from '@/components/Header';
@@ -16,6 +17,12 @@ import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import Footer from '@/components/Footer';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const locale = requireLocale((await params).locale);
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  return pageMetadata(locale, '/', messages.meta.title, messages.meta.description);
+}
 
 export default async function HomePage({
   params,

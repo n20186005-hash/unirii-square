@@ -1,4 +1,8 @@
 import { notFound } from 'next/navigation';
+import { notFoundMetadata, requireLocale } from '@/lib/site';
 
-export const metadata = { title: 'Page not found | Unirii Square', robots: { index: false, follow: false } };
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  return notFoundMetadata(requireLocale((await params).locale));
+}
+
 export default function UnknownPage() { notFound(); }

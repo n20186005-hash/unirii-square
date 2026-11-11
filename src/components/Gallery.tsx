@@ -4,7 +4,7 @@ import { MAPS_URL } from '@/lib/site';
 
 
 import { useTranslations } from 'next-intl';
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 
 const photos = [
   { src: '/gallery/images (1).jpg' },
@@ -25,6 +25,8 @@ export default function Gallery() {
   const t = useTranslations('gallery');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const dialogRef = useRef<HTMLDialogElement>(null);
+  const openerRef = useRef<HTMLButtonElement | null>(null);
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
@@ -35,17 +37,60 @@ export default function Gallery() {
   }, []);
 
   useEffect(() => {
-    if (!isLightboxOpen) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setIsLightboxOpen(false);
-      if (e.key === 'ArrowLeft') goToPrevious();
-      if (e.key === 'ArrowRight') goToNext();
+    if (!isLightboxOpen || !dialogRef.current) return;
+    const dialog = dialogRef.current;
+    const opener = openerRef.current;
+    const openedUrl = window.location.href;
+    const { scrollX, scrollY } = window;
+    const html = document.documentElement;
+    const body = document.body;
+    const htmlHadStyle = html.hasAttribute('style');
+    const bodyHadStyle = body.hasAttribute('style');
+    const properties = (element: HTMLElement, names: string[]) => names.map((name) => ({
+      name, value: element.style.getPropertyValue(name), priority: element.style.getPropertyPriority(name),
+    }));
+    const htmlStyles = properties(html, ['overflow', 'scroll-behavior']);
+    const bodyStyles = properties(body, ['overflow', 'position', 'top', 'left', 'width', 'padding-right']);
+    const restore = (element: HTMLElement, styles: ReturnType<typeof properties>) => {
+      styles.forEach(({ name, value, priority }) => {
+        if (value) element.style.setProperty(name, value, priority);
+        else element.style.removeProperty(name);
+      });
     };
-    document.addEventListener('keydown', onKey);
-    return () => document.removeEventListener('keydown', onKey);
-  }, [isLightboxOpen, goToPrevious, goToNext]);
+    const scrollbarWidth = window.innerWidth - html.clientWidth;
+    const paddingRight = parseFloat(window.getComputedStyle(body).paddingRight) || 0;
 
-  const openLightbox = () => setIsLightboxOpen(true);
+    // The native modal makes the rest of the document inert. Fixed positioning
+    // also locks the background on touch browsers without a global wheel handler.
+    html.style.overflow = 'hidden';
+    html.style.scrollBehavior = 'auto';
+    body.style.overflow = 'hidden';
+    body.style.position = 'fixed';
+    body.style.top = `-${scrollY}px`;
+    body.style.left = `-${scrollX}px`;
+    body.style.width = '100%';
+    body.style.paddingRight = `${paddingRight + scrollbarWidth}px`;
+    dialog.showModal();
+    dialog.querySelector<HTMLButtonElement>('button')?.focus({ preventScroll: true });
+
+    return () => {
+      dialog.close();
+      restore(body, bodyStyles);
+      // Do not put a route change back at the gallery's old scroll position.
+      if (window.location.href === openedUrl) {
+        window.scrollTo({ left: scrollX, top: scrollY, behavior: 'instant' });
+        if (opener?.isConnected) opener.focus({ preventScroll: true });
+      }
+      restore(html, htmlStyles);
+      if (!htmlHadStyle && html.style.length === 0) html.removeAttribute('style');
+      if (!bodyHadStyle && body.style.length === 0) body.removeAttribute('style');
+    };
+  }, [isLightboxOpen]);
+
+  const openLightbox = (opener: HTMLButtonElement) => {
+    openerRef.current = opener;
+    setIsLightboxOpen(true);
+  };
   const closeLightbox = () => setIsLightboxOpen(false);
 
   return (
@@ -64,12 +109,14 @@ export default function Gallery() {
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
               {photos.map((photo, i) => (
-                <div
+                <button
                   key={i}
-                  className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
-                  onClick={() => {
+                  type="button"
+                  aria-label={t('captions.' + i)}
+                  className={`gallery-item relative group cursor-pointer text-left rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
+                  onClick={(e) => {
                     setCurrentIndex(i);
-                    openLightbox();
+                    openLightbox(e.currentTarget);
                   }}
                 >
                   <img
@@ -84,12 +131,12 @@ export default function Gallery() {
                       {t('captions.' + i)}
                     </p>
                   </div>
-                </div>
+                </button>
               ))}
             </div>
 
             <button
-              onClick={() => { goToPrevious(); openLightbox(); }}
+              onClick={(e) => { goToPrevious(); openLightbox(e.currentTarget); }}
               className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
               aria-label={t("previous")}
             >
@@ -98,7 +145,7 @@ export default function Gallery() {
               </svg>
             </button>
             <button
-              onClick={() => { goToNext(); openLightbox(); }}
+              onClick={(e) => { goToNext(); openLightbox(e.currentTarget); }}
               className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
               aria-label={t("next")}
             >
@@ -123,9 +170,33 @@ export default function Gallery() {
       </section>
 
       {isLightboxOpen && (
-        <div
-          role="dialog" aria-modal="true" aria-label={t("captions." + currentIndex)} className="fixed inset-0 z-[60] bg-black/95 flex items-center justify-center"
-          onClick={closeLightbox}
+        <dialog
+          ref={dialogRef}
+          aria-modal="true"
+          aria-label={t("captions." + currentIndex)}
+          className="fixed inset-0 m-0 p-0 border-0 w-screen h-dvh max-w-none max-h-none z-[60] bg-black/95 open:flex items-center justify-center overscroll-contain"
+          onClick={(e) => { if (e.target === e.currentTarget) closeLightbox(); }}
+          onCancel={(e) => { e.preventDefault(); closeLightbox(); }}
+          onClose={(e) => { if (!e.currentTarget.open) closeLightbox(); }}
+          onKeyDown={(e) => {
+            if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+              e.preventDefault();
+              if (e.key === 'ArrowLeft') goToPrevious();
+              else goToNext();
+            }
+            if (e.key === 'Tab') {
+              const buttons = e.currentTarget.querySelectorAll<HTMLButtonElement>('button');
+              const first = buttons[0];
+              const last = buttons[buttons.length - 1];
+              if (e.shiftKey && document.activeElement === first) {
+                e.preventDefault();
+                last?.focus({ preventScroll: true });
+              } else if (!e.shiftKey && document.activeElement === last) {
+                e.preventDefault();
+                first?.focus({ preventScroll: true });
+              }
+            }
+          }}
         >
           <button
             onClick={closeLightbox}
@@ -168,7 +239,7 @@ export default function Gallery() {
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
             {currentIndex + 1} / {photos.length}
           </div>
-        </div>
+        </dialog>
       )}
     </>
   );

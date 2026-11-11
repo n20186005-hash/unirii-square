@@ -258,29 +258,29 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: 10 November 2026",
+    "lastUpdated": "Last updated: May 2026",
     "sections": [
       {
-        "heading": "Website requests",
-        "content": "Your browser sends connection and request information when loading this website. This guide has no account, contact form or booking service."
+        "heading": "Information We Collect",
+        "content": "We only collect the minimum data necessary to provide our services. This data may include: Browsing data (IP address, browser type, pages visited); Cookies and similar technologies; Any information you voluntarily provide through contact forms or email."
       },
       {
-        "heading": "Language and theme",
-        "content": "The language system may save a locale cookie. Cookie Settings stores your choice in local storage. Optional preference storage lets this browser remember your theme; otherwise a theme change lasts until a full page reload."
+        "heading": "How We Use Your Information",
+        "content": "We use the information collected for: Improving website content and user experience; Analyzing traffic and usage patterns; Responding to inquiries; Complying with our legal obligations."
       },
       {
-        "heading": "External resources",
-        "content": "The homepage embeds Google Maps and the stylesheet requests Google Fonts. These services receive browser requests when their resources load. External links use their providers’ policies. The preference switch does not block maps, fonts or independent hosting services."
+        "heading": "Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
       },
       {
-        "heading": "Optional tracking and controls",
-        "content": "This application does not configure Google Analytics or personalised advertising. Use Reject All to remove optional saved theme preferences, or clear site storage in the browser. Browser privacy controls can manage third-party requests."
+        "heading": "Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the following rights: Access your personal data; Request correction or deletion; Object to processing; File a complaint with a supervisory authority."
       }
     ]
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: 10 November 2026",
+    "lastUpdated": "Last updated: May 2026",
     "sections": [
       {
         "heading": "Access and Usage",
@@ -296,7 +296,7 @@
       },
       {
         "heading": "Intellectual Property",
-        "content": "Respect applicable rights when reusing content. External links and embedded maps do not imply affiliation with their providers."
+        "content": "The design and original content of this website are copyright protected. Images are from Unsplash and used under their license. Use of Google Maps data complies with Google's Terms of Service."
       },
       {
         "heading": "Limitation of Liability",
@@ -316,7 +316,7 @@
     },
     "analytics": {
       "title": "Analytics Cookies",
-      "description": "No Google Analytics is configured in this application. This page does not control independent hosting services.",
+      "description": "This version’s source does not configure Google Analytics. These controls do not manage tracking added by hosting or other external services.",
       "items": []
     },
     "preferences": {
@@ -326,11 +326,11 @@
     },
     "marketing": {
       "title": "Marketing Cookies",
-      "description": "No personalised advertising is configured in this application.",
+      "description": "This version’s source does not configure personalised advertising. These controls do not manage advertising added by hosting or other external services.",
       "items": []
     },
     "consentManagement": "Consent Management",
-    "consentDescription": "This control changes theme storage only; it does not block maps, fonts or independent hosting services.",
+    "consentDescription": "You can change your theme-storage preference at any time. This control changes theme storage only; it does not block maps, fonts or independent hosting services.",
     "save": "Save Preferences",
     "rejectAll": "Reject All",
     "saved": "Preferences saved!"

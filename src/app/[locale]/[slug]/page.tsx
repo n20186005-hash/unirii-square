@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { getGuide, guideSlugs, guideSources } from '@/content/guides';
-import { CHECKED_ON, localePath, pageMetadata, requireLocale } from '@/lib/site';
+import { CHECKED_ON, localePath, notFoundMetadata, pageMetadata, requireLocale } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import NearbyGuides from '@/components/NearbyGuides';
@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale: value, slug } = await params;
   const locale = requireLocale(value);
   const guide = getGuide(slug, locale);
-  if (!guide) notFound();
+  if (!guide) return notFoundMetadata(locale);
   return pageMetadata(locale, '/' + slug, guide.copy.metaTitle, guide.copy.description);
 }
 
